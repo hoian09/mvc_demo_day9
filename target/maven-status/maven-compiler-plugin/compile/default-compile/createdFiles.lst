@@ -1,0 +1,4 @@
+mvc\entityorder\Order.class
+mvc\entityorder\OrderDetails.class
+mvc\entityorder\Product.class
+mvc\repository\ProductRepository.class
