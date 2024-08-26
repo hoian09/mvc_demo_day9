@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e75beb01-0555-498b-88d2-869f0cbe941a" name="Changes" comment="Commit java">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/orderDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/orders.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/main/MainOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/main/MainOrdersAndProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/session.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mvc/formregister/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvc/formregister/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mvc/formregister/CartSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvc/formregister/CartSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mvc/main/MainOrders.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e75beb01-0555-498b-88d2-869f0cbe941a" name="Changes" comment="Commit java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724399468385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit java">
+      <option name="closed" value="true" />
+      <created>1724665438764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724665438764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
