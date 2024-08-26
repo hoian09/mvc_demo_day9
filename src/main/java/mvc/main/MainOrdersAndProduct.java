@@ -1,5 +1,4 @@
 package mvc.main;
-
 import mvc.configuration.JPAConfig;
 import mvc.entity.OrderDetailEntity;
 import mvc.entity.OrdersEntity;
@@ -9,12 +8,9 @@ import mvc.repository.OrdersRepository;
 import mvc.repository.ProductRepository;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
-public class MainOrders {
+public class MainOrdersAndProduct {
     static ApplicationContext context = new AnnotationConfigApplicationContext(JPAConfig.class);
     static OrdersRepository ordersRepository = (OrdersRepository) context.getBean("ordersRepository");
     static ProductRepository productRepository = (ProductRepository) context.getBean("productRepository");
@@ -24,7 +20,8 @@ public class MainOrders {
         createNewProduct();
         createNewProductAndNewOrderWithNewOrderDetail();
         createNewOrderDetail();
-
+        createNewOrderAnother();
+        createNewProductAnother();
     }
     public static OrdersEntity createNewOrder() {
         OrdersEntity order = new OrdersEntity();
@@ -33,6 +30,7 @@ public class MainOrders {
         order.setCustomerAddress("HA,QN");
         return order;
     }
+
     public static ProductEntity createNewProduct() {
         ProductEntity productEntity = new ProductEntity();
         productEntity.setProductName("Book Phython");

@@ -11,11 +11,23 @@
 <jsp:include page= "header.jsp"/>
 <html>
 <body>
-    <h1>Checkout</h1>
-    <form action="processCheckout" method="post">
-        <input type="text" name="customerName" placeholder="Your Name" required/>
-        <input type="text" name="customerAddress" placeholder="Your Address" required/>
-        <button type="submit">Place Order</button>
-    </form>
+
+    <div class="container" style="margin-top: 60px;">
+            <h2>Please fill information</h2>
+            <form action="Orders" method="post" modelAttribute="orders">
+                <div class="mb-3">
+                    <label for="customerName" class="form-label">Customer Name (*)</label>
+                    <input type="text" class="form-control" id="customerName" name="customerName" required placeholder="Customer Name">
+                </div>
+                <div class="mb-3">
+                    <label for="customerAddress" class="form-label">Customer Address (*)</label>
+                    <input type="text" class="form-control" id="customerAddress" name="customerAddress" required placeholder="Customer Address">
+                </div>
+                <button type="submit" class="btn btn-primary">Continue</button>
+            </mvc:form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

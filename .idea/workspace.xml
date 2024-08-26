@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e75beb01-0555-498b-88d2-869f0cbe941a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/OrderDetailEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/OrdersEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/formregister/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/main/MainOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/OrdersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/productList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/session.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/configuration/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/configuration/JPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/main/main.java" beforeDir="false" />
+    <list default="true" id="e75beb01-0555-498b-88d2-869f0cbe941a" name="Changes" comment="Commit java">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/orderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/orders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregister/CartSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/main/MainOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/main/MainOrdersAndProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/session.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/formregister/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvc/formregister/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/formregister/CartSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvc/formregister/CartSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/main/MainOrders.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,8 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/mvc/formregister/CartController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/mvc/formregister/CartSession.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/mvc/formregister/ProductController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/mvc/main/MainOrders.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/mvc/repository/OrdersRepository.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregister/productList.jsp" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -79,18 +74,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainOrders.executor": "Run",
-    "Application.mainOrder.executor": "Run",
-    "Maven.mvc_hello [clean].executor": "Run",
-    "Maven.mvc_hello [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Smart Tomcat.demo_9.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainOrders.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainOrdersAndProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mvc_hello [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mvc_hello [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.demo_9.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\demo_m07\mvc_demo_day1\src\main\webapp\WEB-INF\views\jsp\formregister" />
@@ -98,8 +94,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Smart Tomcat.demo_9">
-    <configuration name="MainOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mvc.main.MainOrders" />
+    <configuration name="MainOrdersAndProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mvc.main.MainOrdersAndProduct" />
       <module name="mvc_hello" />
       <extension name="coverage">
         <pattern>
@@ -134,9 +130,6 @@
       <option name="catalinaBase" value="C:\Users\Admin\.SmartTomcat\mvc_demo_day1\mvc_hello" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="8083" />
       <option name="tomcatInfo">
@@ -154,13 +147,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.mainOrder" />
-      <item itemvalue="Application.MainOrders" />
+      <item itemvalue="Application.MainOrdersAndProduct" />
       <item itemvalue="Smart Tomcat.demo_9" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Smart Tomcat.demo_9" />
-        <item itemvalue="Application.MainOrders" />
+        <item itemvalue="Application.MainOrdersAndProduct" />
         <item itemvalue="Application.mainOrder" />
       </list>
     </recent_temporary>
@@ -174,6 +167,19 @@
       <option name="presentableId" value="Default" />
       <updated>1724244871352</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit java">
+      <option name="closed" value="true" />
+      <created>1724399468385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724399468385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit java" />
   </component>
 </project>

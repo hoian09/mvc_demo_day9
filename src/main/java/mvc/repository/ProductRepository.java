@@ -9,4 +9,5 @@ import java.util.List;
 
 public interface ProductRepository extends CrudRepository<ProductEntity, Integer> {
     List<ProductEntity> findAll();
+
 }
